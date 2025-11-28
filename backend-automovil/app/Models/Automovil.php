@@ -8,6 +8,8 @@ class Automovil extends Model
 {
     protected $table = 'automoviles';
 
+    protected $primaryKey = 'auto_id';
+
     protected $fillable = [
         'auto_name',
         'auto_modelo',

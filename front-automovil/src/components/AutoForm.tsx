@@ -21,7 +21,7 @@ export default function AutoForm({ onSave }: Props) {
         getPaises().then(setPaises).then(()=>{
             console.log("Paises cargados:", paises);
         });
-    }, [paises]);
+    }, []);
 
     const handleInput = (
         e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
